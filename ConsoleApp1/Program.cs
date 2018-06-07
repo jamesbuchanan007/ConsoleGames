@@ -100,7 +100,7 @@ namespace ConsoleApp1
                 var answer = rnd.Next(0, presidentNumber.IndexOf(maxNumber) + 1);
             }
 
-            var listOfPresidents = GetPresidents(1, "president");
+            var listOfPresidents = GetPresidents(1);
 
 
         }
@@ -116,18 +116,14 @@ namespace ConsoleApp1
                         President = "George Washington",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "John Adams",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "4/30/1789 to 3/4/1797",
                         VpSecondTerm = "",
-                        VpSecondTermDateRange = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "4/3/1789 to 3/4/1797",
                         LifeRange = "1732-1799",
                         AgeAtDeath = 67,
                         Party = "Unaffiliated",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
 
@@ -138,16 +134,14 @@ namespace ConsoleApp1
                         President = "John Adams",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Thomas Jefferson",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1797 to 3/4/1801",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
+                        VpSecondTerm = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1797 to 3/4/1801",
                         LifeRange = "1735-1826",
                         AgeAtDeath = 90,
                         Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -157,18 +151,14 @@ namespace ConsoleApp1
                         President = "Thomas Jefferson",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Aaron Burr",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1801 to 3/4/1805",
                         VpSecondTerm = "George Clinton",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "3/4/1805 to 3/4/1809",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1801 to 3/4/1809",
                         LifeRange = "1743-1826",
                         AgeAtDeath = 83,
                         Party = "Democratic-Republican",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -178,18 +168,14 @@ namespace ConsoleApp1
                         President = "James Madison",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "George Clinton",
-                        VpFirstTermHasDiedInOffice = true,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1809 to 4/20/1812",
                         VpSecondTerm = "Elbridge Gerry",
-                        VpSecondTermHasDiedInOffice = true,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "3/4/1813 to 11/23/1814",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1809 to 3/4/1817",
                         LifeRange = "1751-1836",
                         AgeAtDeath = 85,
                         Party = "Democratic-Republican",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -199,18 +185,14 @@ namespace ConsoleApp1
                         President = "James Monroe",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Daniel D. Tompkins",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1817 to 3/4/1825",
-                        VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpSecondTerm = "Daniel D. Tompkins",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1817 to 3/4/1825",
                         LifeRange = "1758-1831",
                         AgeAtDeath = 73,
                         Party = "Democratic-Republican",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -220,18 +202,14 @@ namespace ConsoleApp1
                         President = "John Quincy Adams",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "John C. Calhoun",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1825 to 3/4/1829",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermDateRange = "",
-                        VpSecondTermHasResignedInOffice = false,
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1825 to 3/4/1829",
                         LifeRange = "1767-1848",
                         AgeAtDeath = 80,
                         Party = "Democratic-Republican",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -241,18 +219,14 @@ namespace ConsoleApp1
                         President = "Andrew jackson",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "John C. Calhoun",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = true,
-                        VpFirstTermDateRange = "3/4/1829 to 12/28/1832",
                         VpSecondTerm = "Martin Van Buren",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "3/4/1833 to 3/4/1837",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1829 to 3/4/1837",
                         LifeRange = "1767-1845",
                         AgeAtDeath = 78,
                         Party = "Democratic",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -262,18 +236,14 @@ namespace ConsoleApp1
                         President = "Martin Van Buren",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Richard M. Johnson",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1837 to 3/4/4/1841",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1837 to 3/4/1841",
                         LifeRange = "1782-1862",
                         AgeAtDeath = 79,
                         Party = "Democratic",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -283,18 +253,14 @@ namespace ConsoleApp1
                         President = "William Henry Harrison",
                         HasDiedInOfficePresident = true,
                         VpFirstTerm = "John Tyler",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1841 to 4/4/1841",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1841 to 4/4/1841",
                         LifeRange = "1773-1841",
                         AgeAtDeath = 68,
                         Party = "Whig",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -304,18 +270,14 @@ namespace ConsoleApp1
                         President = "John Tyler",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "4/4/1841 to 3/4/1845",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "4/4/1841 to  3/4/1845",
                         LifeRange = "1790-1862",
                         AgeAtDeath = 71,
                         Party = "Whig (4/4/1841 to 9/13/1841), Unaffiliated (9/13/1841 to 3/4/1845)",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -325,18 +287,14 @@ namespace ConsoleApp1
                         President = "James K. Polk",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "George M. Dallas",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1845 to 3/4/1849",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1845 to  3/4/1849",
                         LifeRange = "1795-1849",
                         AgeAtDeath = 53,
                         Party = "Democratic",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -346,18 +304,14 @@ namespace ConsoleApp1
                         President = "Zachary Taylor",
                         HasDiedInOfficePresident = true,
                         VpFirstTerm = "Millard Fillmore",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1849 to 7/9/1850",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1849 to 7/9/1850",
                         LifeRange = "1784-1850",
                         AgeAtDeath = 65,
                         Party = "Whig",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -367,18 +321,14 @@ namespace ConsoleApp1
                         President = "Millard Fillmore",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "7/9/1850 to  3/4/1853",
                         LifeRange = "1800-1874",
                         AgeAtDeath = 74,
                         Party = "Whig",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -388,18 +338,14 @@ namespace ConsoleApp1
                         President = "Franklin Pierce",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "William R. King",
-                        VpFirstTermHasDiedInOffice = true,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1853 to 4/18/1853",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1853 to 3/4/1857",
                         LifeRange = "1804-1869",
                         AgeAtDeath = 64,
                         Party = "Democratic",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -409,18 +355,14 @@ namespace ConsoleApp1
                         President = "James Buchanan",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "John C. Breckinridge",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1857 to 3/4/1861",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1857 to 3/4/1861",
                         LifeRange = "1791-1868",
                         AgeAtDeath = 77,
                         Party = "Democratic",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -430,18 +372,14 @@ namespace ConsoleApp1
                         President = "Abraham Lincoln",
                         HasDiedInOfficePresident = true,
                         VpFirstTerm = "Hannibal Hamlin",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1861 to 3/4/1861",
                         VpSecondTerm = "Andrew Johnson",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "3/4/1865 to 4/15/1865",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1861 to 4/15/1865",
                         LifeRange = "1809-1865",
                         AgeAtDeath = 56,
                         Party = "Republican",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -451,18 +389,14 @@ namespace ConsoleApp1
                         President = "Andrew Johnson",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "4/15/1865 to 3/4/1869",
                         LifeRange = "1808-1875",
                         AgeAtDeath = 66,
                         Party = "National Union (1865-1868), Democratic (1868-1869)",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -472,18 +406,14 @@ namespace ConsoleApp1
                         President = "Ulysses S. Grant",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Schuyler Colfax",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1869 to 3/4/1873",
                         VpSecondTerm = "Henry Wilson",
-                        VpSecondTermHasDiedInOffice = true,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "3/4/1873 to 11/22/1875",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1869 to 3/4/1877",
                         LifeRange = "1822-1885",
                         AgeAtDeath = 63,
                         Party = "Republican",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -493,18 +423,14 @@ namespace ConsoleApp1
                         President = "Rutherford B. Hayes",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "William A. Wheeler",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1877 to 3/4/1881",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1877 to 3/4/1881",
                         LifeRange = "1822-1893",
                         AgeAtDeath = 70,
                         Party = "Republican",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -514,14 +440,14 @@ namespace ConsoleApp1
                         President = "James A. Garfield",
                         HasDiedInOfficePresident = true,
                         VpFirstTerm = "Chester A. Arthur",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1881 to 9/19/1881",
+                        VpSecondTerm = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1881 to 9/19/1881",
                         LifeRange = "1831-1881",
                         AgeAtDeath = 49,
                         Party = "Republican",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -531,18 +457,14 @@ namespace ConsoleApp1
                         President = "Chester A. Arthur",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1881 to 9/19/1881",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "9/19/1881 to 3/4/1885",
                         LifeRange = "1829-1886",
                         AgeAtDeath = 57,
                         Party = "Republican",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -552,18 +474,14 @@ namespace ConsoleApp1
                         President = "Grover Cleveland",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Thomas A. Hendricks",
-                        VpFirstTermHasDiedInOffice = true,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1885 to 11/25/1885",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1885 to 3/4/1889",
                         LifeRange = "1837-1908",
                         AgeAtDeath = 71,
                         Party = "Democratic",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -573,18 +491,14 @@ namespace ConsoleApp1
                         President = "Benjamin Harrison",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Levi P. Morton",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1889 to 3/4/1893",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1889 to 3/4/1893",
                         LifeRange = "1883-1901",
                         AgeAtDeath = 67,
                         Party = "Republican",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -594,14 +508,14 @@ namespace ConsoleApp1
                         President = "Grover Cleveland",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Adlai Stevenson",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1893 to 3/4/1897",
+                        VpSecondTerm = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1893 to 3/4/1897",
                         LifeRange = "1837-1908",
                         AgeAtDeath = 71,
                         Party = "Democratic",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -611,18 +525,14 @@ namespace ConsoleApp1
                         President = "William McKinley",
                         HasDiedInOfficePresident = true,
                         VpFirstTerm = "Garret Hobart",
-                        VpFirstTermHasDiedInOffice = true,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1897 to 11/21/1899",
                         VpSecondTerm = "Theodore Roosevelt",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "3/4/1901 to 9/14/1901",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1897 to 9/14/1901",
                         LifeRange = "1843-1901",
                         AgeAtDeath = 58,
                         Party = "Republican",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -632,18 +542,14 @@ namespace ConsoleApp1
                         President = "Theodore Roosevelt",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "",
                         VpSecondTerm = "Charles W. Fairbanks",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "3/4/1905 to 3/4/1909",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "9/14/1901 to 3/4/1909",
                         LifeRange = "1858-1919",
                         AgeAtDeath = 60,
                         Party = "Republican",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -653,14 +559,14 @@ namespace ConsoleApp1
                         President = "William Howard Taft",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "James S. Sherman",
-                        VpFirstTermHasDiedInOffice = true,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1909 to 10/30/1912",
+                        VpSecondTerm = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1909 to 3/4/1913",
                         LifeRange = "1857-1930",
                         AgeAtDeath = 72,
                         Party = "Republican",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -670,18 +576,14 @@ namespace ConsoleApp1
                         President = "Woodrow Wilson",
                         HasDiedInOfficePresident = false,
                         VpFirstTerm = "Thomas R. Marshall",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1913 to 3/4/1917",
                         VpSecondTerm = "Thomas R. Marshall",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "3/4/1917 to 3/4/1921",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1913 to 3/4/1921",
                         LifeRange = "1856-1924",
                         AgeAtDeath = 67,
                         Party = "Democratic",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -691,18 +593,14 @@ namespace ConsoleApp1
                         President = "Warren G. Harding",
                         HasDiedInOfficePresident = true,
                         VpFirstTerm = "Calvin Coolidge",
-                        VpFirstTermHasDiedInOffice = false,
-                        VpFirstTermHasResignedInOffice = false,
-                        VpFirstTermDateRange = "3/4/1921 to 8/2/1923",
                         VpSecondTerm = "",
-                        VpSecondTermHasDiedInOffice = false,
-                        VpSecondTermHasResignedInOffice = false,
-                        VpSecondTermDateRange = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1921 to 8/2/1923",
                         LifeRange = "1865-1923",
                         AgeAtDeath = 57,
                         Party = "Republican",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
@@ -711,11 +609,15 @@ namespace ConsoleApp1
                     {
                         President = "Calvin Coolidge",
                         HasDiedInOfficePresident = false,
-                        VpFirstTerm = "Charles G. Dawes (3/4/1925 to 3/4/1929)",
-                        PresidentialDateRange = "August 2, 1923 to 3/4/1929",
+                        VpFirstTerm = "",
+                        VpSecondTerm = "Charles G. Dawes",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "8/2/1923 to 3/4/1929",
                         LifeRange = "1872-1933",
+                        AgeAtDeath = 60,
                         Party = "Republican",
-                        NumberOfTermsElected = 2
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
@@ -723,179 +625,239 @@ namespace ConsoleApp1
                     new PresidentsStats
                     {
                         President = "Herbert Hoover",
-                        VICEPRESIDENT = "Charles Curtis",
+                        VpFirstTerm = "Charles Curtis",
+                        VpSecondTerm = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
                         PresidentialDateRange = "3/4/1929 to 3/4/1933",
                         LifeRange = "1874-1964",
+                        AgeAtDeath = 90,
                         Party = "Republican",
-                        NumberOfTermsElected = 1
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
                     32,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Franklin D. Roosevelt",
+                        VpFirstTerm = "John N. Garner",
+                        VpSecondTerm = "John N. Garner",
+                        VpThirdTerm = "Henry A. Wallace",
+                        VpFourthTerm = "Harry S. Truman",
+                        PresidentialDateRange = "3/4/1933 to 4/12/1945",
+                        LifeRange = "1882-1945",
+                        AgeAtDeath = 63,
+                        Party = "Democratic",
+                        NumberOfTermsServed = 4
                     }
                 },
                 {
                     33,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Harry S. Truman",
+                        VpFirstTerm = "",
+                        VpSecondTerm = "Alben W. Barkley",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "4/12/1945 to 1/20/1953",
+                        LifeRange = "1884-1972",
+                        AgeAtDeath = 88,
+                        Party = "Democratic",
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
                     34,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Dwight D. Eisenhower",
+                        VpFirstTerm = "Richard Nixon",
+                        VpSecondTerm = "Richard Nixon",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/1953 to 1/20/1961",
+                        LifeRange = "1890-1969",
+                        AgeAtDeath = 78,
+                        Party = "Republican",
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
                     35,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "John F. Kennedy",
+                        VpFirstTerm = "Lyndon B. Johnson",
+                        VpSecondTerm = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/1961 to 11/22/1963",
+                        LifeRange = "1917-1963",
+                        AgeAtDeath = 46,
+                        Party = "Democratic",
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
                     36,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
+                        President = "Lyndon B. Johnson",
+                        VpFirstTerm = "",
+                        VpSecondTerm = "Hubert Humphrey",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "11/22/1963 to 1/20/1969",
                         LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        AgeAtDeath = 64,
+                        Party = "Democratic",
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
                     37,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Richard Nixon",
+                        VpFirstTerm = "Spiro Agnew",
+                        VpSecondTerm = "Gerald Ford",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/1969 to 8/9/1974",
+                        LifeRange = "1913-1994",
+                        AgeAtDeath = 81,
+                        Party = "Republican",
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
                     38,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Gerald Ford",
+                        VpFirstTerm = "Nelson Rockefeller",
+                        VpSecondTerm = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "8/9/1974 to 1/20/1977",
+                        LifeRange = "1913-2006",
+                        AgeAtDeath = 93,
+                        Party = "Republican",
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
                     39,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Jimmy Carter",
+                        VpFirstTerm = "Walter Mondale",
+                        VpSecondTerm = "Walter Mondale",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/1977 to 1/20/1981",
+                        LifeRange = "1924 to Present",
+                        AgeAtDeath = 0,
+                        Party = "Democratic",
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
                     40,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Ronald Reagan",
+                        VpFirstTerm = "George H. W. Bush",
+                        VpSecondTerm = "George H. W. Bush",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/1981 to 1/20/1989",
+                        LifeRange = "1911-2004",
+                        AgeAtDeath = 93,
+                        Party = "Republican",
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
                     41,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "George H. W. Bush",
+                        VpFirstTerm = "Dan Quayle",
+                        VpSecondTerm = "Dan Quayle",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/1989 to 1/20/1993",
+                        LifeRange = "1924 to Present",
+                        AgeAtDeath = 0,
+                        Party = "Republican",
+                        NumberOfTermsServed = 1
                     }
                 },
                 {
                     42,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Bill Clinton",
+                        VpFirstTerm = "Al Gore",
+                        VpSecondTerm = "Al Gore",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/1993 to 1/20/2001",
+                        LifeRange = "1946 to Present",
+                        AgeAtDeath = 0,
+                        Party = "Democratic",
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
                     43,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "George W. Bush",
+                        VpFirstTerm = "Dick Cheney",
+                        VpSecondTerm = "Dick Cheney",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/2001 to 1/20/2009",
+                        LifeRange = "1946 to Present",
+                        AgeAtDeath = 0,
+                        Party = "Republican",
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
                     44,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Barack Obama",
+                        VpFirstTerm = "Joe Biden",
+                        VpSecondTerm = "Joe Biden",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/2009 to 1/20/2017",
+                        LifeRange = "1961 to Present",
+                        AgeAtDeath = 0,
+                        Party = "Democratic",
+                        NumberOfTermsServed = 2
                     }
                 },
                 {
                     45,
                     new PresidentsStats
                     {
-                        President = "John Adams",
-                        VICEPRESIDENT = "Thomas Jefferson",
-                        PresidentialDateRange = "3/4/1797 to 3/4/1801",
-                        LifeRange = "1735-1826",
-                        Party = "Federalist",
-                        NumberOfTermsElected = 1
+                        President = "Donald Trump",
+                        VpFirstTerm = "Mike Pence",
+                        VpSecondTerm = "",
+                        VpThirdTerm = "",
+                        VpFourthTerm = "",
+                        PresidentialDateRange = "1/20/2017 to Present",
+                        LifeRange = "1946 to Present",
+                        AgeAtDeath = 0,
+                        Party = "Republican",
+                        NumberOfTermsServed = 1
                     }
                 }
             };
@@ -3611,19 +3573,15 @@ namespace ConsoleApp1
     {
         public string President { get; set; }
         public bool HasDiedInOfficePresident { get; set; }
-        public int AgeAtDeath { get; set; }
         public string VpFirstTerm { get; set; }
-        public string VpFirstTermDateRange { get; set; }
-        public bool VpFirstTermHasDiedInOffice { get; set; }
-        public bool VpFirstTermHasResignedInOffice { get; set; }
         public string VpSecondTerm { get; set; }
-        public string VpSecondTermDateRange { get; set; }
-        public bool VpSecondTermHasDiedInOffice { get; set; }
-        public bool VpSecondTermHasResignedInOffice { get; set; }
+        public string VpThirdTerm { get; set; }
+        public string VpFourthTerm { get; set; }
         public string PresidentialDateRange { get; set; }
-        public string Party { get; set; }
-        public int NumberOfTermsElected { get; set; }
         public string LifeRange { get; set; }
+        public int AgeAtDeath { get; set; }
+        public string Party { get; set; }
+        public int NumberOfTermsServed { get; set; }
     }
 
     public class User
