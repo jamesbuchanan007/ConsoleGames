@@ -711,7 +711,7 @@ namespace ConsoleApp1
                     {
                         President = "Calvin Coolidge",
                         HasDiedInOfficePresident = false,
-                        VICEPRESIDENT = "Office Vacant (8/2/1923 to 3/4/1925), Charles G. Dawes (3/4/1925 to 3/4/1929)",
+                        VpFirstTerm = "Charles G. Dawes (3/4/1925 to 3/4/1929)",
                         PresidentialDateRange = "August 2, 1923 to 3/4/1929",
                         LifeRange = "1872-1933",
                         Party = "Republican",
